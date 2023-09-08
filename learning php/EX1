@@ -1,0 +1,43 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php </title>
+</head>
+<body>
+<h1> Example of php syntax</h1>
+<?php 
+// the example of a php code
+$txt="Do U Know that";
+/* a simple program to explain
+the use of variable
+inside the echo function */
+echo "Hey .$txt.!";      // Hey, Do U Know that!       
+?>
+</body>
+</html>
+  
+  
+  
+ <!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php </title>
+</head>
+<body>
+<h1> Example of php syntax</h1>
+<?php 
+// the example of a php code
+$txt="Do U Know that";
+/* a simple program to explain
+the use of variable scope global and local
+inside the echo function */
+echo "Hey .$txt.!";
+function mynew(){
+ $x=5;
+ echo $x;
+ }
+mynew();
+?>
+</body>
+</html>
