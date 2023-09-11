@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Structure</title>
+</head>
+<body>
+    <h2>Salary Structure</h2>
+    <form>
+        <h3>Gross Pay</h3>
+        Basic Pay :  <input type="number" id="basic-pay" name="basic-pay">
+        <br><br>
+
+        HRA :   <input type="number" id="hra" name="hra">
+        <br><br>
+
+        Conveyance : <input type="number" id="conveyance" name="conveyance">
+        <br><br>
+
+        Other Allowances : <input type="number" id="other-allowances" name="other-allowances">
+        <br><br><br>
+
+        <h3>Deductions</h3>
+        TDS: <input type="number" id="tds" name="tds">
+        <br><br>
+
+        Professional Tax : <input type="number" id="professional-tax" name="professional-tax">
+        <br><br>
+
+       PF : <input type="number" id="pf" name="pf">
+        <br><br>
+		
+		 <input type="submit" value="update contacts">
+
+    </form>
+</body>
+</html>
+
+

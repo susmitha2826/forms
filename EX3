@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php</title>
+</head>
+<body>
+<?php
+# the string functions in php
+$my_string= "Hello world 2.o";
+// string function to fing length of the string
+echo strlen($my_string);
+echo "<br>";
+echo str_word_count($my_string);// count number of words
+echo "<br>";
+echo strrev($my_string);// reverse of string
+echo "<br>";
+echo strpos("hello huidh jhd gdih hh","hello");//find position of word
+echo "<br>";
+echo str_replace("hello","world","hello world 2.o");// replace the word
+?>
+</body>
+</html>
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php</title>
+</head>
+<body>
+<?php
+   $x=20; /* including object into the php
+   oops concept in php using construct method and message method to display op*/
+   class fashion {
+     public $model;
+	 public $price;
+	  public function __construct($model,$price)
+     {
+	  $this->model=$model;
+	  $this->price=$price;
+	 }
+	 public function message(){
+	  return " the model $this->model is new trend and it's price is $this->price";
+	  }
+	 }
+$cool = new fashion("tonJeans","999");
+echo $cool ->message();
+?>
+</body>
+</html>
+	 
+	 
+	  

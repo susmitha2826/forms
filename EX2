@@ -1,0 +1,61 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php </title>
+</head>
+<body>
+<h1> Example of php syntax</h1>
+<?php 
+// the example of a php code
+$txt="Do U Know that";
+/* a simple program to explain
+the use of variable scope global and local
+inside the echo function */
+echo "Hey .$txt.!";
+function mynew(){
+ global $txt,$x; // using the global variables nside the function using the global keyword
+ $x=$txt;
+ echo $x;
+ }
+mynew();
+/* Example of php syntax
+Hey .Do U Know that.!Do U Know that
+*/
+?>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Welcome to php </title>
+</head>
+<body>
+<h1> Example of php syntax</h1>
+<?php 
+// the example of a php code
+$txt="Do U Know that";
+$x= 5;
+$y= 4.67;
+$my_var= array("class","object","method");
+/* using the var_dump to know the type of the variable
+basically the php as automatically adjust the data type as per requirment */
+var_dump($x); 
+echo "<br>";
+var_dump($y);
+echo "<br>";
+var_dump($my_var);
+echo "<br>";
+var_dump($xy);
+echo "<br>";      
+/* int(5)
+float(4.67)
+array(3) { [0]=> string(5) "class" [1]=> string(6) "object" [2]=> string(6) "method" }
+NULL 
+*/ 
+?>
+</body>
+</html>
